@@ -1,0 +1,1 @@
+const items=['Luxury Apartment Campaign','Real Estate Showcase','Brand Identity Design','Music Video Production','Social Media Content','Corporate Flyer'];const g=document.getElementById('grid');items.forEach(t=>{const d=document.createElement('div');d.className='card';d.innerHTML='<h3>'+t+'</h3>';g.appendChild(d);});
